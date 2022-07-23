@@ -1,5 +1,6 @@
 module Dummyvar
 
-# Write your package code here.
+export dummy_create
+include("functions.jl")
 
 end
