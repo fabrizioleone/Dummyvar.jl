@@ -14,36 +14,36 @@ Pkg.add("Dummyvar")
 using Dummyvar
 ```
 
-The function ```dummy_create``` creates the matrix of zeros and ones. Here are some examples
+The function ```dummycreate``` creates the matrix of zeros and ones. Here are some examples
 
 
 ```julia
-dummy_create([1.0, 2.0])
+dummycreate([1.0, 2.0])
 
 2×2 Matrix{Float64}:
  1.0  0.0
  0.0  1.0
 
-dummy_create(['a', 'b'])
+dummycreate(['a', 'b'])
 
 2×2 Matrix{Float64}:
  1.0  0.0
  0.0  1.0
  
-dummy_create([1, 'a', 'b'])
+dummycreate([1, 'a', 'b'])
 
 3×3 Matrix{Float64}:
  1.0  0.0  0.0
  0.0  1.0  0.0
  0.0  0.0  1.0
  
-dummy_create([1, 1, 'a', 'b'])
+dummycreate([1, 'a', 'b', 1])
 
 4×3 Matrix{Float64}:
  1.0  0.0  0.0
- 1.0  0.0  0.0
  0.0  1.0  0.0
- 0.0  0.0  1.0
+ 0.0  1.0  0.0
+ 1.0  0.0  0.0
 
 ```
 
