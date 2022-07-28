@@ -1,6 +1,6 @@
 module Dummyvar
 
-export dummy_create
+export dummycreate
 include("functions.jl")
 
 end

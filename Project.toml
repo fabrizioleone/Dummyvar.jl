@@ -1,7 +1,7 @@
 name = "Dummyvar"
 uuid = "5d02951d-65b4-45d8-b6c0-f168f9df2c9e"
 authors = ["fabrizio-leone"]
-version = "0.1.0"
+version = "0.2.0"
 
 [compat]
 julia = "1"
